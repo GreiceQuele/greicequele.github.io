@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Greice</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!--Dev icon Font-->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!--CSS do projeto-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <h1>Greice Quele Nascimento Caetano</h1>
-    
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Greice Quele Nascimento Caetano</h2>
+            <img id="bio-img" src="img/Quele perfil.jpg" alt="foto de perfil">
+            <p>Olá tudo bem ? Me chamo Greice Quele e sou uma futura <span class="highlight">desenvolvedora
+                    FullStack</span></p>
+            <p id="welcome-text">Seja bem vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-Linkedin"></ion-icon> </a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-Instagram"></ion-icon></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail"></ion-icon><a
+                    href="mailto:greice_quele@hotmail.com">greice_quele@hotmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1>Greice Quele Nascimento Caetano</h1>
+            <p id="title"><span class="highlight">Desenvolvedora FullStack</span></p>
+            <p class="description">Olá! Meu nome é Greice e sou uma entusiasta de tecnologia em processo de <span
+                    class="highlight">transição de carreira</span> para a área de <span
+                    class="highlight">desenvolvimento Fullstack</span></p>
+            <p class="description">Atualmente estou estudando SUPERIOR DE
+                TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS, buscando adquirir habilidades em front-end,
+                back-end e banco de dados para me tornar uma desenvolvedora Fullstack completa.</p>
+            <p class="description"> Tenho interesse e
+                conhecimento básico em linguagens como <span class="highlight">HTML, CSS, JavaScript, Node.js e
+                    Python</span> , e estou constantemente aprimorando minhas habilidades por meio de projetos práticos
+                e cursos online. </p>
+            <p class="description">Além disso, estou aprendendo sobre frameworks e bibliotecas populares, como <span class="highlight">React,
+                Angular e Express</span> , para expandir meu conhecimento e capacidade de desenvolver aplicações web dinâmicas e
+                interativas.</p>
+            <p class="description">Estou comprometida em me tornar uma desenvolvedora Fullstack. Vamos criar algo incrível juntos!</p>
+            <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span> Ver
+                    Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que eu domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-tailwindcss-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-microsoftsqlserver-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>
